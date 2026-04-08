@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("sample_data.csv", sep="\t")
+df = pd.read_csv("C:/Users/HP/Downloads/data_analyst/sample_data.csv", sep="\t")
 
 # 1. BAR CHART: Comparing Salaries by City
 # We group the data to see which city has the highest average pay.

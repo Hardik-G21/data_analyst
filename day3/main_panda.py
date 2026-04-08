@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 1. LOAD DATA
-df = pd.read_csv("sample_data.csv", sep="\t")
+df = pd.read_csv("C:/Users/HP/Downloads/data_analyst/sample_data.csv", sep="\t")
 
 # 2. THE AUDIT
 print(df.head())
