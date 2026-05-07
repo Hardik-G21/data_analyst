@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("C:/Users/HP/Downloads/data_analyst/sample_data.csv", sep="\t")
+df = pd.read_csv("C:/Users/HP/Downloads/data_analyst/day2/sample_data.csv", sep="\t")
 
 df.groupby("City")["Salary"].mean().plot(kind='bar', color='skyblue')
 
